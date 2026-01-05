@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments - NEVER COMMIT THESE
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Environment variables - NEVER COMMIT THESE
+.env
+*.env
+!.env.example  # BUT allow .env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package files
+*.lock
+uv.lock
+.python-version
+
+# Cache
+.cache/
+*.cache
+CACHEDIR.TAG
+__pycache__/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific outputs
+scraper_cache/
+output/
+temp/
+*.tmp
