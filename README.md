@@ -22,7 +22,8 @@ An 8-week intensive program covering:
   - Automated sales brochure creation
   - Status: 🔄 In Progress / ✅ Completed
 
-### Week 2: Frontier APIs
+### Week 2: Frontier APIsgit status
+
 - **Project 2: Multi-Modal Customer Support Agent**
   - Airline customer service chatbot
   - Multi-modal interactions (text, images, audio)
