@@ -1,47 +1,86 @@
+############################
 # Python
+############################
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
 
-# Virtual Environments - NEVER COMMIT THESE
+############################
+# Virtual Environments (NEVER COMMIT)
+############################
 .venv/
 venv/
 ENV/
 env/
 .virtualenv/
 
-# Environment variables - NEVER COMMIT THESE
+############################
+# Environment variables (NEVER COMMIT)
+############################
 .env
 *.env
-!.env.example  # BUT allow .env.example
+!.env.example
 
-# IDE
+############################
+# IDE / Editors
+############################
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Package files
+############################
+# Package / Version files
+############################
 *.lock
 uv.lock
 .python-version
 
+############################
 # Cache
+############################
 .cache/
 *.cache
 CACHEDIR.TAG
-__pycache__/
+.ipynb_checkpoints/
 
+############################
 # Logs
+############################
 *.log
 
+############################
 # OS
+############################
 .DS_Store
 Thumbs.db
 
-# Project specific outputs
+############################
+# ML / LLM Artifacts (CRITICAL)
+############################
+# Trained models
+*.pth
+*.h5
+*.ckpt
+*.joblib
+*.pkl
+
+# Vector stores / embeddings
+chroma.sqlite3
+*/vectorstore/
+*/products_vectorstore/
+*/chroma/
+
+# Datasets
+data/
+dataset/
+datasets/
+
+############################
+# Project-specific outputs
+############################
 scraper_cache/
 output/
 temp/

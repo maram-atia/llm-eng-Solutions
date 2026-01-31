@@ -156,5 +156,13 @@ This project is designed to be:
 * **Production‑ready** (logging, orchestration, monitoring)
 
 ---
+## ⚠️ Model & Vector Store Files
+
+Due to GitHub size limitations, trained models and vector databases are not included in this repository.
+
+Excluded files:
+- `deep_neural_network.pth`
+- `chroma.sqlite3`
+
 
 ✨ Feel free to fork, extend, or adapt this system for other autonomous agent use cases like monitoring, forecasting, or recommendation engines.
